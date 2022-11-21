@@ -1,0 +1,17 @@
+table{
+	border: solid 3px;
+	border-color: #aF008F;
+	border-collapse: collapse;
+}
+table th, table td{
+	border: solid 1px;
+	border-color: #8F006F;
+}
+
+.daycol{
+	width: 2em;
+}
+
+table .day{
+	background-color: #CFFEEF;
+}
