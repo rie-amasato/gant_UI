@@ -274,13 +274,13 @@ function addTask(){
 addEventListener('load', function(e) {
   console.log('gant')
 
-	startdate=new Date();
-	startdate.setHours(startdate.getHours()+9)//日本の時刻に変換
+	startdate=new Date()
+	startdate.setDate(1)
 
 	const timezone=9
 	setPM0(startdate, timezone)
 	
-	calendarLength=20//カレンダーの長さ
+	calendarLength=35//カレンダーの長さ
 	tasks=[
 		new Task(0, "task0","#aF008F"),
 		new Task(1, "task1","#00aF8F"),
