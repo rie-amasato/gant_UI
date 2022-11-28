@@ -254,9 +254,9 @@ class Task{
 }
 
 function savetask(){
-	cookielife=(new Date().valueOf()+1000*60*60*24*30)
-	const encodeddata=encodeURI(JSON.stringify(tasks), cookielife)
-	document.cookie="tasks="+encodeddata+";"
+	cookielife=(60*60*24*30)
+	const encodeddata=encodeURI(JSON.stringify(tasks))
+	document.cookie="tasks="+encodeddata+"; max-age="+cookielife+";"
 }
 
 function addTask(){
