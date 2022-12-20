@@ -286,7 +286,7 @@ addEventListener('load', function(e) {
 		new Task(0, "task0","#aF008F"),
 		new Task(1, "task1","#00aF8F"),
 		new Task(2, "task2","#00aF8F"),
-		new Task(3, "task3","#aF8F00", Date.UTC(2022,10,29),Date.UTC(2022,11,10)),
+		new Task(3, "task3","#aF8F00"),
 		new Task(4, "task4","#aF008F"),
 	]
 
