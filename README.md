@@ -17,4 +17,4 @@
 
 ちょっといろいろに流用できるようにコード整理もしていきたいかも
 
-https://yumi-amahane.github.io/gant_UI  
+https://rie-amasato.github.io/gant_UI/
